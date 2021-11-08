@@ -1,7 +1,9 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
+
 from function import main
+
 
 """
 Используя замыкания функций, объявите внутреннюю функцию, которая принимает в

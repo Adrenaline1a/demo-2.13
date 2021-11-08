@@ -1,3 +1,7 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+
+
 def main():
     def pattern(surname, firstname):
         return "Уважаемый {} {}! Вы делаете работу " \
