@@ -4,7 +4,5 @@
 
 def main(pattern):
     def wrapper(firstname, lastname):
-        first = firstname
-        lst = lastname
-        return pattern.format(firstname=first, lastname=lst)
+        return pattern.format(firstname=firstname, lastname=lastname)
     return wrapper
