@@ -2,8 +2,9 @@
 # -*- coding: utf-8 -*-
 
 
-def main():
-    def pattern(surname, firstname):
-        return "Уважаемый {} {}! Вы делаете работу " \
-               "по замыканиям функций.".format(surname, firstname)
-    return pattern
+def main(pattern):
+    def wrapper(firstname, lastname):
+        first = firstname
+        lst = lastname
+        return pattern.format(firstname=first, lastname=lst)
+    return wrapper

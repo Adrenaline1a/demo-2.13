@@ -19,4 +19,5 @@ from function import main
 
 
 if __name__ == '__main__':
-    print(main()(input('Введите фамилию: '), input('Введите имя: ')))
+    func = main("Уважаемый {firstname} {lastname}! Вы делаете работу по замыканиям функций.")
+    print(func("Злыгостев", "Игорь"))
